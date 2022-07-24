@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<CodeBench_Project name="hv" path="retrami:hv-AmigaOS4&#047;hv.cbp" created="1406211281" lastmodified="1406218490">
+	<plugin name="PROGDIR:Plugins&#047;AmigaOS4SDK.CCPlugin" flags="0"/>
+	<target/>
+	<homedir name="retrami:hv-AmigaOS4"/>
+	<includedir name="retrami:hv-AmigaOS4"/>
+	<compiler name="gcc:bin&#047;gcc" switches="-Wall -Werror -Wwrite-strings" stack="131072"/>
+	<linker switches="-lauto"/>
+	<debugger name="SDK:c&#047;gdb"/>
+	<builder name="SDK:c&#047;make -f"/>
+	<environment/>
+	<sources>
+		<file name="hv.c" open="0"/>
+	</sources>
+	<others>
+		<file name="README.md" open="0"/>
+	</others>
+	<flags value="0x0000000000078007"/>
+	<buildscript name="Makefile" depth="3" open="0"/>
+	<projectnotes open="0"/>
+	<buildwindow open="0"/>
+	<targets>
+		<target name="hv" linker="gcc:bin&#047;gcc" switches="-lauto" flags="0x00000002">
+			<file name="hv.c"/>
+		</target>
+	</targets>
+	<logfile name="RAM Disk:Build.log"/>
+	<search sensecase="1" replace_state="0"/>
+</CodeBench_Project>
